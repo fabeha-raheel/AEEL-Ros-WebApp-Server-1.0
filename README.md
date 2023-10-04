@@ -10,7 +10,17 @@ So far, we have tested its working on the following platforms:
 - Turtlebot3 Robot (Gazebo Simulation)
 - Turtlebot3 Robot (Burger - Actual hardware)
 
-## Installations
+## Initial Cloud Setup
+
+Update the System:
+```bash
+clear
+sudo apt-get update
+```
+Clone the Repository from GitHub:
+```bash
+git clone https://github.com/fabeha-raheel/AEEL-Ros-WebApp-Server-1.0.git
+```
 
 1. Activate Virtual Environment:
 ```shell
