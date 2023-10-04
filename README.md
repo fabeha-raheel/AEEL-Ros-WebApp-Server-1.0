@@ -10,6 +10,9 @@ So far, we have tested its working on the following platforms:
 - Turtlebot3 Robot (Gazebo Simulation)
 - Turtlebot3 Robot (Burger - Actual hardware)
 
+## Access the Application
+Access the application: http://13.49.57.166:8000/
+
 ## Initial Cloud Setup
 
 Update the System:
