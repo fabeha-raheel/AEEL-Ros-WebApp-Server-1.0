@@ -44,3 +44,36 @@ python manage.py startapp <name_of_app>
 
 3. Prepare your django application code.
 
+## GitHub
+
+To initialize git:
+```shell
+git init
+```
+
+Connect with remote repository:
+```shell
+git remote add origin https://github.com/fabeha-raheel/AEEL-Ros-WebApp-Server-1.0.git
+```
+
+Create a branch in remote repository:
+```shell
+git branch -M master
+```
+Add modifications:
+```shell
+git add .
+```
+Commit changes:
+```shell
+git commit -m 'comments'
+```
+
+Push to remote repo:
+```shell
+git push -u origin master
+```
+Pull request from master:
+```shell
+git pull origin master
+```
