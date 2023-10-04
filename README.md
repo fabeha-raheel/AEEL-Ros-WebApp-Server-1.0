@@ -33,6 +33,11 @@ Activate Virtual Environment:
 source venv/bin/activate
 ```
 
+Install pip:
+```shell
+sudo apt install python3-pip
+```
+
 Install the following:
 ```shell
 pip install django
@@ -43,5 +48,13 @@ or,
 pip install -r requirements.txt
 ```
 
+Django Application Migrations
+```shell
+python3 manage.py makemigrations
+python3 manage.py migrate
+```
 
-
+Run the server
+```shell
+python3 manage.py runserver 0.0.0.0:8000
+```
