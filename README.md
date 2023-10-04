@@ -44,6 +44,15 @@ python manage.py startapp <name_of_app>
 
 3. Prepare your django application code.
 
+4. Create requirements.txt file:
+```shell
+pip freeze > requirements.txt
+```
+5. Install packages from requirements.txt file:
+```shell
+pip install -r requirements.txt
+```
+
 ## GitHub
 
 To initialize git:
