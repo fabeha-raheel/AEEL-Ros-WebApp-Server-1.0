@@ -17,13 +17,31 @@ Update the System:
 clear
 sudo apt-get update
 ```
+
 Clone the Repository from GitHub:
 ```bash
 git clone https://github.com/fabeha-raheel/AEEL-Ros-WebApp-Server-1.0.git
 ```
 
-1. Activate Virtual Environment:
+Change Directory:
+```bash
+cd AEEL-Ros-WebApp-Server-1.0
+```
+
+Activate Virtual Environment:
 ```shell
 source venv/bin/activate
 ```
+
+Install the following:
+```shell
+pip install django
+pip install -U channels["daphne"]
+```
+or,
+```shell
+pip install -r requirements.txt
+```
+
+
 
