@@ -61,3 +61,16 @@ Run the server
 ```shell
 python3 manage.py runserver 0.0.0.0:8000
 ```
+## Set an Elastic IP on AWS Cloud (Static IP)
+1. Go to the Amazon EC2 console
+2. From the Navigation Pane, select 'Network and Security' -> 'Elastic IPs'
+3. Click on 'Allocate Elastic IP address'
+4. For Public IPv4 address pool, choose 'Amazon's pool of IPv4 addresses'
+5. Click on 'Allocate'
+6. Once the Elastic IP is created, select it by clicking on the checkbox next to it.
+7. Click on 'Actions' -> 'Associate Elastic IP address'
+8. For 'Resource Type', choose 'Instance'
+9. Choose the instance with which to associate the Elastic IP address.
+10. Click on 'Associate'
+
+For more details, refer: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html
