@@ -326,7 +326,8 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
-RosWebServer/*.pyc
+RosWebServer/__pycache__/
+RosWebServer/__pycache__/*.pyc
 
 
 # Cake - Uncomment if you are using it
