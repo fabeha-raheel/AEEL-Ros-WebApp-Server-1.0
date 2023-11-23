@@ -1,3 +1,14 @@
+//Tomtom Maps API
+        
+const CENTER_LOCATION = {lng: 67.1347, lat: 24.7938};
+
+var map = tt.map({
+    key: "xFCS6rzf4y6lvM4OgY2bn2ynXEAZfdaS",
+    container: "map",
+    center: CENTER_LOCATION,
+    zoom: 20,
+})
+
 // Websocket Connection
 let url = `ws://${window.location.host}/ws/tb3/`
 const commSocket = new WebSocket(url);
